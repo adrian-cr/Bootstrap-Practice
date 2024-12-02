@@ -1,0 +1,64 @@
+.logo-img {
+  width: 300px;
+}
+
+#navbarNavAltMarkup {
+  width: calc(100% - 300px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+.section-intro {
+  text-align: center;
+}
+
+.card-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 80vh;
+  justify-content: center;
+  width: 60%;
+}
+
+.card-container .card {
+  height: 30vh;
+  text-align: center;
+  width: 300px;
+}
+
+.card-container .card img {
+  height: 70%;
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 30%;
+}
+
+.list
+
+.list-group-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.list-group {
+  width: 40%;
+}
