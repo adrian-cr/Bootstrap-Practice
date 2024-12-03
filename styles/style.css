@@ -17,8 +17,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Typold Bold" !important;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--primary);
+}
+
+a {
   color: var(--primary) !important;
+}
+
+.page-title {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 .carousel h2, .carousel p {
@@ -99,7 +109,11 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .partners {
+  /*background: rgba(255, 255, 255, 0.1), url(../images/flags_bg.jpg);*/
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../images/flags_bg.jpg);
+  background-size:cover;
   min-height: 70vh;
+  padding-top: 50px;
 }
 
 .list-subsection-wrapper {
@@ -152,7 +166,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /* Products Page Styles */
+
 .products {
+  background-image: url(../images/ams_bg.jpg);
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -168,4 +185,34 @@ h1, h2, h3, h4, h5, h6, p, a {
   justify-content: center;
   padding: 50px auto;
   width: 80%;
+}
+
+/*Contact Us Page Styles*/
+.contact {
+  background-image: url(../images/iron_dome_bg.avif);
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 85vh;
+}
+
+.contact .page-title {
+  color: var(--secondary);
+  margin-top: 50px;
+}
+
+.contact-form {
+  background-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.contact-form * {
+  padding-bottom: 10px;
+  width: 100%;
 }
