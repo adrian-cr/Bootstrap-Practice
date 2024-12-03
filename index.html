@@ -9,40 +9,41 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./styles/style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>Attila Defense</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="logo-img" src="./images/logo.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a class="navbar-brand" href="#">
+          <img class="logo-img" src="./images/logo.png" alt=""/>
+          <p class="logo-slogan">Defense Solutions</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="./services.html">Our Services</a>
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Our Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <section id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -70,21 +71,28 @@
           <img src="./images/tech.avif" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h2>Cutting-Edge Technology</h2>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>We only provide our clients with the latest technological
+              advances in the defense industry.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./images/iris_t.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h2>Top-Tier Quality</h2>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>Systems manufactured with high-grade materials, developed by
+              world-class manufacturers and tested under the strictest standards
+              in the market.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./images/delivery.jpg" class="d-block w-100" alt="..." />
           <div class="carousel-caption d-none d-md-block">
             <h2>Lightning-Fast Delivery</h2>
-            <p>Some representative placeholder content for the third slide.</p>
+            <p>We take fast delivery seriously. Our 100% on-time delivery rate
+              for the last 27 years can vouch for our deep commitment to excelling
+              efficiency and infallible logistics to ensure effective preparedness
+              to threats.
+            </p>
           </div>
         </div>
       </div>
@@ -106,7 +114,7 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
-    </div>
+    </section>
     <section class="products">
       <div class="section-intro">
         <h2 class="section-title">Defense Systems</h2>
@@ -143,45 +151,99 @@
     <section class="partners">
       <div class="section-intro">
         <h2 class="section-title">Our Partners & Clients</h2>
-      <p>Our partners and clients in every prt of the globe can vouch for our
+      <p>Our partners and clients in every part of the globe can vouch for our
         high standards and extensive reliability.
       </p>
       </div>
       <div class="list-subsection-wrapper">
         <div class="list-group-wrapper">
+          <h3 class="list-group-title">Our Partners</h3>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A list item
-              <span class="badge text-bg-primary rounded-pill">14</span>
+              Rheinmetall
+              <span class="badge text-bg-primary rounded-pill">🇩🇪</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A second list item
-              <span class="badge text-bg-primary rounded-pill">2</span>
+              Lockheed & Martin
+              <span class="badge text-bg-primary rounded-pill">🇺🇸</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A third list item
-              <span class="badge text-bg-primary rounded-pill">1</span>
+              Microsoft
+              <span class="badge text-bg-primary rounded-pill">🇺🇸</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Thales
+              <span class="badge text-bg-primary rounded-pill">🇫🇷</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Airbus
+              <span class="badge text-bg-primary rounded-pill">🇪🇺</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Boeing
+              <span class="badge text-bg-primary rounded-pill">🇺🇸</span>
             </li>
           </ul>
         </div>
         <div class="list-group-wrapper">
+          <h3 class="list-group-title">Our Clients</h3>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A list item
-              <span class="badge text-bg-primary rounded-pill">14</span>
+              US Department of Defence
+              <span class="badge text-bg-primary rounded-pill">🇺🇸</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A second list item
-              <span class="badge text-bg-primary rounded-pill">2</span>
+              Norwegian Ministry of Defence
+              <span class="badge text-bg-primary rounded-pill">🇳🇴</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              A third list item
-              <span class="badge text-bg-primary rounded-pill">1</span>
+              French Armed forces Ministry
+              <span class="badge text-bg-primary rounded-pill">🇫🇷</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Japan Ministry of Defense
+              <span class="badge text-bg-primary rounded-pill">🇯🇵</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Ministry of Defence of Finland
+              <span class="badge text-bg-primary rounded-pill">🇫🇮</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Chilean Ministry of National Defense
+              <span class="badge text-bg-primary rounded-pill">🇨🇱</span>
             </li>
           </ul>
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="footer-subsection logo-wrapper">
+        <a class="navbar-brand" href="#"
+          ><img class="logo-img" src="./images/logo.png" alt=""
+        /></a>
+      </div>
+      <div class="footer-subsection contact-info-wrapper">
+        <a href="https://www.facebook.com" class="contact-info-box">
+          <i class="fa fa-facebook-official"></i>
 
+          </i>
+          Attila Defense
+        </a>
+        <a href="https://www.instagram.com" class="contact-info-box">
+          <i class="fa fa-instagram"></i>
+           @attila_defense
+        </a>
+        <p class="contact-info-box">
+          <i class="fa fa-phone">
+
+          </i>
+          +1 (307) 508-0000
+        </p>
+      </div>
+      <div class="footer-subsection footer-navlink-wrapper">
+        <a href="./services.html" class="footer-navlink">Our Services</a>
+        <a href="./contact.html" class="footer-navlink">Contact Form</a>
+      </div>
+    </footer>
   </body>
 </html>

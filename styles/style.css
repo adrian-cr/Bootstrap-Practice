@@ -1,0 +1,130 @@
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 200px;
+}
+
+#navbarNavAltMarkup {
+  width: calc(100% - 300px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav {
+  justify-content: space-around !important;
+  width: 90% !important;
+}
+
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+.logo-slogan {
+  font-size: 0.7em;
+  margin-top: -15px;
+}
+
+.carousel-item img {
+  height:85vh;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px;
+}
+
+.section-intro {
+  text-align: center;
+}
+
+.card-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  min-height: 70vh;
+  justify-content: center;
+  padding: 50px auto;
+  width: 60%;
+}
+
+.card-container .card {
+  height: 30vh;
+  text-align: center;
+  width: 300px;
+}
+
+.card-container .card img {
+  height: 70%;
+}
+
+.card-body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 30%;
+}
+
+.partners {
+  min-height: 70vh;
+}
+
+.list-subsection-wrapper {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  row-gap: 50px;
+  margin-top: 10vh;
+  padding: 50px;
+  width:100%;
+}
+
+.list-group-wrapper {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  min-width: 50%;
+}
+
+.list-group-title {
+  text-align: center;
+  width: 100%;
+}
+
+.list-group {
+  min-width: 50%;
+}
+
+.footer {
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  min-height: 15vh;
+  flex-wrap: wrap;
+}
+
+.footer-subsection {
+  min-width: 400px;
+  text-align: center;
+}
+
+.contact-info-box {
+  display: block;
+}
+
+.footer-navlink {
+  display: block;
+}
